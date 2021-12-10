@@ -53,5 +53,7 @@ public class LineController {
             @RequestBody SectionRequest sectionRequest) {
         // TODO: 구간 등록 기능 구현
         // ...
+
+        return null;
     }
 }
