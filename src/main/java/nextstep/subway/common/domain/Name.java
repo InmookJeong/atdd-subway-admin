@@ -16,7 +16,7 @@ public class Name {
     protected Name() {}
 
     public Name(String name) {
-        if(isVaildName(name)) {
+        if(!name.isEmpty() && isVaildName(name)) {
             this.name = name;
         }
     }
