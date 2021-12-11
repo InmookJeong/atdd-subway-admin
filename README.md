@@ -13,6 +13,9 @@
   - Order by 상행선 to 하행선
 - 지하철 구간 추가
   - [ ] 역 사이에 새로운 역 추가
+    - [ ] 신규로 추가할 역이 UpStation인지 DownStation인지에 따라 기존 Section 조회
+    - [ ] 신규로 추가할 Section의 Distance가 기존 Section의 Distance보다 작은지 확인
+    - [ ] 기존 Section 보다 작다면 기존 UpStation과 연결된 Section, 기존 DownStation과 연결될 Section 추가
   - [ ] 새로운 상행 종점역 추가
   - [ ] 새로운 하행 종점역 추가
 
